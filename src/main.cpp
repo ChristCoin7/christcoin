@@ -34,7 +34,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0xc0f5abdd6118a24f616351cc3d88c88a8118fca25e27bf0dbdb530e3028aa917");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Thepandacoin: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // christcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -67,7 +67,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Thepandacoin Signed Message:\n";
+const string strMessageMagic = "christcoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -358,7 +358,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // Thepandacoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // christcoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -615,7 +615,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // Thepandacoin
+    // christcoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1174,8 +1174,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 4 * 60 * 60; // ThePandaCoin: every 4 hours
-static const int64 nTargetSpacing = 2.5 * 60; // ThePandaCoin: block released every 2.5 minutes
+static const int64 nTargetTimespan = 4 * 60 * 60; // christCoin: every 4 hours
+static const int64 nTargetSpacing = 2.5 * 60; // christCoin: block released every 2.5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -1237,7 +1237,7 @@ unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const 
         return pindexLast->nBits;
     }
 
-    // Thepandacoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // christcoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -1359,10 +1359,10 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 {
         int DiffMode = 1; // legacy diff-mode
         if (fTestNet) {
-                if (pindexLast->nHeight+1 >= 35) { DiffMode = 2; } // thepandacoin, 100 blocks after first legacy diff adjustment
+                if (pindexLast->nHeight+1 >= 35) { DiffMode = 2; } // christcoin, 100 blocks after first legacy diff adjustment
         }
         else {         
-        	if (pindexLast->nHeight+1 >= 1000) { DiffMode = 2; }  //thepandacoin, Let early adopters have fun.
+        	if (pindexLast->nHeight+1 >= 1000) { DiffMode = 2; }  //christcoin, Let early adopters have fun.
             // first 1 000 blocks are using the classic difficulty algo
         }
         
@@ -2287,7 +2287,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // Thepandacoin: Special short-term limits to avoid 10,000 BDB lock limit:
+    // christcoin: Special short-term limits to avoid 10,000 BDB lock limit:
     if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
     {
         // Rule is: #unique txids referenced <= 4,500
@@ -2449,7 +2449,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // Thepandacoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // christcoin: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -2972,7 +2972,7 @@ bool InitBlockIndex() {
     if (!fReindex) {
 
         // Genesis block
-        const char* pszTimestamp = "This is The Panda Coin. 02/14/14 Wolly and Molly";
+        const char* pszTimestamp = "This is The christ Coin. 02/14/14 Wolly and Molly";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2987,7 +2987,7 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nBits    = 0x1e0ffff0;
         block.nNonce = 213380;
-        block.nTime = 1392212777;
+        block.nTime = 1393730144;
         
         if (fTestNet)
         {
@@ -3310,7 +3310,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfa, 0xbf, 0xb5, 0xda }; // Thepandacoin: increase each by adding 1 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xfa, 0xbf, 0xb5, 0xda }; // christcoin: increase each by adding 1 to bitcoin's value.
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4352,7 +4352,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// ThepandacoinMiner
+// christcoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4765,7 +4765,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("ThepandacoinMiner:\n");
+    printf("christcoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4774,7 +4774,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("ThepandacoinMiner : generated block is stale");
+            return error("christcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4788,17 +4788,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("ThepandacoinMiner : ProcessBlock, block not accepted");
+            return error("christcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static ThepandacoinMiner(CWallet *pwallet)
+void static christcoinMiner(CWallet *pwallet)
 {
-    printf("ThepandacoinMiner started\n");
+    printf("christcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("thepandacoin-miner");
+    RenameThread("christcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4820,7 +4820,7 @@ void static ThepandacoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running ThepandacoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running christcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4931,7 +4931,7 @@ void static ThepandacoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("ThepandacoinMiner terminated\n");
+        printf("christcoinMiner terminated\n");
         throw;
     }
 }
@@ -4956,7 +4956,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&ThepandacoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&christcoinMiner, pwallet));
 }
 
 // Amount compression:

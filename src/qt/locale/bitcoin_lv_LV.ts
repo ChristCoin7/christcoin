@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ThePandacoin</source>
-        <translation>Par ThePandacoin</translation>
+        <source>About christcoin</source>
+        <translation>Par christcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ThePandacoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ThePandacoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;christcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;christcoin&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The ThePandacoin developers</source>
+        <source>The christcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your ThePandacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your christcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ThePandacoin address</source>
+        <source>Sign a message to prove you own a christcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified ThePandacoin address</source>
+        <source>Verify a message to ensure it was signed with a specified christcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your ThePandacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your christcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -243,7 +243,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR christCOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>ThePandacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your thepandacoins from being stolen by malware infecting your computer.</source>
-        <translation>ThePandacoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>christcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your christcoins from being stolen by malware infecting your computer.</source>
+        <translation>christcoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ThePandacoin</source>
-        <translation>Parādīt informāciju par ThePandacoin</translation>
+        <source>Show information about christcoin</source>
+        <translation>Parādīt informāciju par christcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a ThePandacoin address</source>
-        <translation>Nosūtīt bitkoinus uz ThePandacoin adresi</translation>
+        <source>Send coins to a christcoin address</source>
+        <translation>Nosūtīt bitkoinus uz christcoin adresi</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for ThePandacoin</source>
-        <translation>Mainīt ThePandacoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for christcoin</source>
+        <translation>Mainīt christcoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>ThePandacoin</source>
+        <source>christcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About ThePandacoin</source>
+        <source>&amp;About christcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your ThePandacoin addresses to prove you own them</source>
+        <source>Sign messages with your christcoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified ThePandacoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified christcoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>ThePandacoin client</source>
-        <translation>ThePandacoin klients</translation>
+        <source>christcoin client</source>
+        <translation>christcoin klients</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to ThePandacoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar ThePandacoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar ThePandacoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as ThePandacoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to christcoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar christcoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar christcoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as christcoin tīklu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adrese: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid ThePandacoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid christcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adrese: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. ThePandacoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. christcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ThePandacoin address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga ThePandacoin adrese.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid christcoin address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga christcoin adrese.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,8 +751,8 @@ Adrese: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>ThePandacoin-Qt</source>
-        <translation>ThePandacoin-Qt</translation>
+        <source>christcoin-Qt</source>
+        <translation>christcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,13 +814,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ThePandacoin after logging in to the system.</source>
-        <translation>Automātiski sākt ThePandacoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start christcoin after logging in to the system.</source>
+        <translation>Automātiski sākt christcoin pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ThePandacoin on system login</source>
-        <translation>&amp;Sākt ThePandacoin reizē ar sistēmu</translation>
+        <source>&amp;Start christcoin on system login</source>
+        <translation>&amp;Sākt christcoin reizē ar sistēmu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ThePandacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt ThePandacoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the christcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt christcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ThePandacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the christcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -924,8 +924,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ThePandacoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc ThePandacoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting christcoin.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc christcoin pārstartēšanas.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,8 +939,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ThePandacoin addresses in the transaction list or not.</source>
-        <translation>Rādīt vai nē ThePandacoin adreses transakciju sarakstā.</translation>
+        <source>Whether to show christcoin addresses in the transaction list or not.</source>
+        <translation>Rādīt vai nē christcoin adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -991,7 +991,7 @@ Adrese: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ThePandacoin.</source>
+        <source>This setting will take effect after restarting christcoin.</source>
         <translation>Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
     </message>
     <message>
@@ -1010,8 +1010,8 @@ Adrese: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ThePandacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar ThePandacoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the christcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar christcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1064,7 +1064,7 @@ Adrese: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start thepandacoin: click-to-pay handler</source>
+        <source>Cannot start christcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1214,7 +1214,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ThePandacoin-Qt help message to get a list with possible ThePandacoin command-line options.</source>
+        <source>Show the christcoin-Qt help message to get a list with possible christcoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adrese: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>ThePandacoin - Debug window</source>
+        <source>christcoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>ThePandacoin Core</source>
+        <source>christcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ThePandacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the christcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,8 +1259,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the ThePandacoin RPC console.</source>
-        <translation>Laipni lūgti ThePandacoin RPC konsolē.</translation>
+        <source>Welcome to the christcoin RPC console.</source>
+        <translation>Laipni lūgti christcoin RPC konsolē.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,8 +1443,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ThePandacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet ThePandacoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a christcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet christcoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1508,7 +1508,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ThePandacoin address</source>
+        <source>Sign the message to prove you own this christcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1544,7 +1544,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ThePandacoin address</source>
+        <source>Verify the message to ensure it was signed with the specified christcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adrese: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ThePandacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet ThePandacoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a christcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet christcoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ThePandacoin signature</source>
+        <source>Enter christcoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adrese: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The ThePandacoin developers</source>
+        <source>The christcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adrese: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>ThePandacoin version</source>
-        <translation>ThePandacoin versija</translation>
+        <source>christcoin version</source>
+        <translation>christcoin versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2192,8 +2192,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or thepandacoind</source>
-        <translation>Nosūtīt komantu uz -server vai thepandacoind</translation>
+        <source>Send command to -server or christcoind</source>
+        <translation>Nosūtīt komantu uz -server vai christcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: thepandacoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: thepandacoin.conf)</translation>
+        <source>Specify configuration file (default: christcoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: christcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: thepandacoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: thepandacoind.pid)</translation>
+        <source>Specify pid file (default: christcoind.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: christcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2295,13 +2295,13 @@ Adrese: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=thepandacoinrpc
+rpcuser=christcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ThePandacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;christcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ThePandacoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. ThePandacoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. christcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,7 +2362,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ThePandacoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ThePandacoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong christcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2612,7 +2612,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ThePandacoin Alert&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the ThePandacoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the christcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ThePandacoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ThePandacoin</source>
-        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka ThePandacoin versija</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of christcoin</source>
+        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka christcoin versija</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart ThePandacoin to complete</source>
-        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet ThePandacoin</translation>
+        <source>Wallet needed to be rewritten: restart christcoin to complete</source>
+        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet christcoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;ThePandacoin Alert&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. ThePandacoin is probably already running.</source>
-        <translation>Nevar pievienoties %s uz šī datora. ThePandacoin droši vien jau darbojas.</translation>
+        <source>Unable to bind to %s on this computer. christcoin is probably already running.</source>
+        <translation>Nevar pievienoties %s uz šī datora. christcoin droši vien jau darbojas.</translation>
     </message>
     <message>
         <location line="+64"/>

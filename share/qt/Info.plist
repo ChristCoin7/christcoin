@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>ThePandacoin-Qt</string>
+	<string>christcoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.thepandacoin.ThePandacoin-Qt</string>
+	<string>org.christcoin.christcoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.thepandacoin.ThePandacoinPayment</string>
+            <string>org.christcoin.christcoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>thepandacoin</string>
+              <string>christcoin</string>
             </array>
           </dict>
         </array>

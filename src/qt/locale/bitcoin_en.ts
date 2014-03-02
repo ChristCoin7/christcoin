@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About The Panda Coin</source>
-        <translation>About The Panda Coin</translation>
+        <source>About The christ Coin</source>
+        <translation>About The christ Coin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;The Panda Coin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;The Panda Coin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;The christ Coin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;The christ Coin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,8 +36,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The The Panda Coin developers</source>
-        <translation>The The Panda Coin developers</translation>
+        <source>The The christ Coin developers</source>
+        <translation>The The christ Coin developers</translation>
     </message>
 </context>
 <context>
@@ -69,8 +69,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your The Panda Coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your The Panda Coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your The christ Coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your The christ Coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -84,8 +84,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a The Panda Coin address</source>
-        <translation>Sign a message to prove you own a The Panda Coin address</translation>
+        <source>Sign a message to prove you own a The christ Coin address</source>
+        <translation>Sign a message to prove you own a The christ Coin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -109,8 +109,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified The Panda Coin address</source>
-        <translation>Verify a message to ensure it was signed with a specified The Panda Coin address</translation>
+        <source>Verify a message to ensure it was signed with a specified The christ Coin address</source>
+        <translation>Verify a message to ensure it was signed with a specified The christ Coin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -124,8 +124,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your The Panda Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your The Panda Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your The christ Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your The christ Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -250,8 +250,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR christCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR christCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -277,8 +277,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>The Panda Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PANDAs from being stolen by malware infecting your computer.</source>
-        <translation>The Panda Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PANDAs from being stolen by malware infecting your computer.</translation>
+        <source>The christ Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your christs from being stolen by malware infecting your computer.</source>
+        <translation>The christ Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your christs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about The Panda Coin</source>
-        <translation>Show information about The Panda Coin</translation>
+        <source>Show information about The christ Coin</source>
+        <translation>Show information about The christ Coin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -421,13 +421,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a The Panda Coin address</source>
-        <translation>Send coins to a The Panda Coin address</translation>
+        <source>Send coins to a The christ Coin address</source>
+        <translation>Send coins to a The christ Coin address</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for The Panda Coin</source>
-        <translation>Modify configuration options for The Panda Coin</translation>
+        <source>Modify configuration options for The christ Coin</source>
+        <translation>Modify configuration options for The christ Coin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -457,8 +457,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>The Panda Coin</source>
-        <translation>The Panda Coin</translation>
+        <source>The christ Coin</source>
+        <translation>The christ Coin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -482,8 +482,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About The Panda Coin</source>
-        <translation>&amp;About The Panda Coin</translation>
+        <source>&amp;About The christ Coin</source>
+        <translation>&amp;About The christ Coin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your The Panda Coin addresses to prove you own them</source>
-        <translation>Sign messages with your The Panda Coin addresses to prove you own them</translation>
+        <source>Sign messages with your The christ Coin addresses to prove you own them</source>
+        <translation>Sign messages with your The christ Coin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified The Panda Coin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified The Panda Coin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified The christ Coin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified The christ Coin addresses</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -538,15 +538,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>The Panda Coin client</source>
-        <translation>The Panda Coin client</translation>
+        <source>The christ Coin client</source>
+        <translation>The christ Coin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to The Panda Coin network</source>
+        <source>%n active connection(s) to The christ Coin network</source>
         <translation>
-            <numerusform>%n active connection to The Panda Coin network</numerusform>
-            <numerusform>%n active connections to The Panda Coin network</numerusform>
+            <numerusform>%n active connection to The christ Coin network</numerusform>
+            <numerusform>%n active connections to The christ Coin network</numerusform>
         </translation>
     </message>
     <message>
@@ -670,8 +670,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid The Panda Coin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid The Panda Coin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid The christ Coin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid The christ Coin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -685,8 +685,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. The Panda Coin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. The Panda Coin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. The christ Coin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. The christ Coin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -751,8 +751,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid The Panda Coin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid The Panda Coin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid The christ Coin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid The christ Coin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -770,8 +770,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Thepandacoin-Qt</source>
-        <translation>Thepandacoin-Qt</translation>
+        <source>christcoin-Qt</source>
+        <translation>christcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -833,13 +833,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start The Panda Coin after logging in to the system.</source>
-        <translation>Automatically start The Panda Coin after logging in to the system.</translation>
+        <source>Automatically start The christ Coin after logging in to the system.</source>
+        <translation>Automatically start The christ Coin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start The Panda Coin on system login</source>
-        <translation>&amp;Start The Panda Coin on system login</translation>
+        <source>&amp;Start The christ Coin on system login</source>
+        <translation>&amp;Start The christ Coin on system login</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -858,8 +858,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the The Panda Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the The Panda Coin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the The christ Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the The christ Coin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -868,8 +868,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the The Panda Coin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the The Panda Coin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the The christ Coin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the The christ Coin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -943,8 +943,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting The Panda Coin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting The Panda Coin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting The christ Coin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting The christ Coin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -958,8 +958,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show The Panda Coin addresses in the transaction list or not.</source>
-        <translation>Whether to show The Panda Coin addresses in the transaction list or not.</translation>
+        <source>Whether to show The christ Coin addresses in the transaction list or not.</source>
+        <translation>Whether to show The christ Coin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1010,8 +1010,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting The Panda Coin.</source>
-        <translation>This setting will take effect after restarting The Panda Coin.</translation>
+        <source>This setting will take effect after restarting The christ Coin.</source>
+        <translation>This setting will take effect after restarting The christ Coin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1029,8 +1029,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the The Panda Coin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the The Panda Coin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the The christ Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the The christ Coin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1083,8 +1083,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start The Panda Coin: click-to-pay handler</source>
-        <translation>Cannot start The Panda Coin: click-to-pay handler</translation>
+        <source>Cannot start The christ Coin: click-to-pay handler</source>
+        <translation>Cannot start The christ Coin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1233,8 +1233,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Thepandacoin-Qt help message to get a list with possible The Panda Coin command-line options.</source>
-        <translation>Show the Thepandacoin-Qt help message to get a list with possible The Panda Coin command-line options.</translation>
+        <source>Show the christcoin-Qt help message to get a list with possible The christ Coin command-line options.</source>
+        <translation>Show the christcoin-Qt help message to get a list with possible The christ Coin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,13 +1253,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>The Panda Coin - Debug window</source>
-        <translation>The Panda Coin - Debug window</translation>
+        <source>The christ Coin - Debug window</source>
+        <translation>The christ Coin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>The Panda Coin Core</source>
-        <translation>The Panda Coin Core</translation>
+        <source>The christ Coin Core</source>
+        <translation>The christ Coin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1268,8 +1268,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the The Panda Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the The Panda Coin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the The christ Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the The christ Coin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1278,8 +1278,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the The Panda Coin RPC console.</source>
-        <translation>Welcome to the The Panda Coin RPC console.</translation>
+        <source>Welcome to the The christ Coin RPC console.</source>
+        <translation>Welcome to the The christ Coin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1462,8 +1462,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a The Panda Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</source>
-        <translation>Enter a The Panda Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</translation>
+        <source>Enter a The christ Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</source>
+        <translation>Enter a The christ Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</translation>
     </message>
 </context>
 <context>
@@ -1527,8 +1527,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this The Panda Coin address</source>
-        <translation>Sign the message to prove you own this The Panda Coin address</translation>
+        <source>Sign the message to prove you own this The christ Coin address</source>
+        <translation>Sign the message to prove you own this The christ Coin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,8 +1563,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified The Panda Coin address</source>
-        <translation>Verify the message to ensure it was signed with the specified The Panda Coin address</translation>
+        <source>Verify the message to ensure it was signed with the specified The christ Coin address</source>
+        <translation>Verify the message to ensure it was signed with the specified The christ Coin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1579,8 +1579,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a The Panda Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</source>
-        <translation>Enter a The Panda Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</translation>
+        <source>Enter a The christ Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</source>
+        <translation>Enter a The christ Coin address (e.g. VsPMGuDYWdibQQ1Hbwpbq3pDHmGY12F2wd)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1589,8 +1589,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter The Panda Coin signature</source>
-        <translation>Enter The Panda Coin signature</translation>
+        <source>Enter The christ Coin signature</source>
+        <translation>Enter The christ Coin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1663,8 +1663,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The The Panda Coin developers</source>
-        <translation>The The Panda Coin developers</translation>
+        <source>The The christ Coin developers</source>
+        <translation>The The christ Coin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2216,8 +2216,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>The Panda Coin version</source>
-        <translation>The Panda Coin version</translation>
+        <source>The christ Coin version</source>
+        <translation>The christ Coin version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2226,8 +2226,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or thepandacoind</source>
-        <translation>Send command to -server or thepandacoind</translation>
+        <source>Send command to -server or christcoind</source>
+        <translation>Send command to -server or christcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2246,13 +2246,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: thepandacoin.conf)</source>
-        <translation>Specify configuration file (default: thepandacoin.conf)</translation>
+        <source>Specify configuration file (default: christcoin.conf)</source>
+        <translation>Specify configuration file (default: christcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: thepandacoind.pid)</source>
-        <translation>Specify pid file (default: thepandacoind.pid)</translation>
+        <source>Specify pid file (default: christcoind.pid)</source>
+        <translation>Specify pid file (default: christcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2329,24 +2329,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=thepandacoinrpc
+rpcuser=christcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;The christ Coin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=thepandacoinrpc
+rpcuser=christcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;The christ Coin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2361,8 +2361,8 @@ for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; adm
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Thepandacoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Thepandacoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. christcoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. christcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2406,8 +2406,8 @@ for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; adm
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong The Panda Coin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong The Panda Coin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong The christ Coin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong The christ Coin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2656,8 +2656,8 @@ for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; adm
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the The Panda Coin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the The Panda Coin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the The christ Coin Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the The christ Coin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2846,13 +2846,13 @@ for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; adm
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of The Panda Coin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of The Panda Coin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of The christ Coin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of The christ Coin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart The Panda Coin to complete</source>
-        <translation>Wallet needed to be rewritten: restart The Panda Coin to complete</translation>
+        <source>Wallet needed to be rewritten: restart The christ Coin to complete</source>
+        <translation>Wallet needed to be rewritten: restart The christ Coin to complete</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2911,8 +2911,8 @@ for example: alertnotify=echo %%s | mail -s &quot;The Panda Coin Alert&quot; adm
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. The Panda Coin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. The Panda Coin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. The christ Coin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. The christ Coin is probably already running.</translation>
     </message>
     <message>
         <location line="+64"/>

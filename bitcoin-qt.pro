@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = thepandacoin-qt
-macx:TARGET = "ThePandacoin-Qt"
+TARGET = christcoin-qt
+macx:TARGET = "christcoin-Qt"
 VERSION = 0.8.6.2
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -319,7 +319,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = thepandacoin-qt_test
+TARGET = christcoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }

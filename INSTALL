@@ -1,12 +1,12 @@
-Building ThePandacoin
+Building christcoin
 
-See doc/readme-qt.rst for instructions on building ThePandacoin-Qt,
+See doc/readme-qt.rst for instructions on building christcoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of ThePandacoin.
+implementation of christcoin.
 
-See doc/build-*.txt for instructions on building thepandacoind,
+See doc/build-*.txt for instructions on building christcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of ThePandacoin.
+implementation of christcoin.
 
 Further build information and documentation is available at
-the official ThePandacoin website, http://www.thepandacoin.org
+the official christcoin website, http://www.christcoin.org

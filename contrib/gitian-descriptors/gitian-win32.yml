@@ -1,5 +1,5 @@
 ---
-name: "thepandacoin"
+name: "christcoin"
 suites:
 - "precise"
 architectures:
@@ -13,8 +13,8 @@ packages:
 - "faketime"
 reference_datetime: "2014-02-01 00:00:00"
 remotes:
-- "url": "https://github.com/thepandacoin/thepandacoin.git"
-  "dir": "thepandacoin"
+- "url": "https://github.com/christcoin/christcoin.git"
+  "dir": "christcoin"
 files:
 - "qt-win32-4.8.3-gitian-r4.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
@@ -31,7 +31,7 @@ script: |
   unzip ../build/bitcoin-deps-win32-gitian-r9.zip
   cd $HOME/build/
   #
-  cd thepandacoin
+  cd christcoin
   export PATH=$STAGING/host/bin:$PATH
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
@@ -41,19 +41,19 @@ script: |
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
   ln -s $STAGING $HOME/qt
-  $HOME/staging/host/bin/qmake -spec unsupported/win32-g++-cross MINIUPNPC_LIB_PATH=$STAGING MINIUPNPC_INCLUDE_PATH=$STAGING BDB_LIB_PATH=$STAGING BDB_INCLUDE_PATH=$STAGING BOOST_LIB_PATH=$STAGING BOOST_INCLUDE_PATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s OPENSSL_LIB_PATH=$STAGING OPENSSL_INCLUDE_PATH=$STAGING QRENCODE_LIB_PATH=$STAGING QRENCODE_INCLUDE_PATH=$STAGING USE_QRCODE=1 INCLUDEPATH=$STAGING DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=thepandacoin USE_BUILD_INFO=1 USE_SSE2=1
+  $HOME/staging/host/bin/qmake -spec unsupported/win32-g++-cross MINIUPNPC_LIB_PATH=$STAGING MINIUPNPC_INCLUDE_PATH=$STAGING BDB_LIB_PATH=$STAGING BDB_INCLUDE_PATH=$STAGING BOOST_LIB_PATH=$STAGING BOOST_INCLUDE_PATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s OPENSSL_LIB_PATH=$STAGING OPENSSL_INCLUDE_PATH=$STAGING QRENCODE_LIB_PATH=$STAGING QRENCODE_INCLUDE_PATH=$STAGING USE_QRCODE=1 INCLUDEPATH=$STAGING DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=christcoin USE_BUILD_INFO=1 USE_SSE2=1
   make $MAKEOPTS
-  $HOST-strip release/thepandacoin-qt.exe
-  cp release/thepandacoin-qt.exe $OUTDIR/
+  $HOST-strip release/christcoin-qt.exe
+  cp release/christcoin-qt.exe $OUTDIR/
   #
   cd src
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING thepandacoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=thepandacoin" USE_SSE2=1
-  $HOST-strip thepandacoind.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING christcoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=christcoin" USE_SSE2=1
+  $HOST-strip christcoind.exe
   mkdir $OUTDIR/daemon
-  cp thepandacoind.exe $OUTDIR/daemon
+  cp christcoind.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis
@@ -62,5 +62,5 @@ script: |
   cp ../../release/* ../release/
   cp ../../src/*.exe .
   makensis ../share/setup.nsi
-  cp ../share/thepandacoin-*-win32-setup.exe $OUTDIR/
+  cp ../share/christcoin-*-win32-setup.exe $OUTDIR/
 

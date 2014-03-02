@@ -1,7 +1,7 @@
 src/*.exe
-src/thepandacoin
-src/thepandacoind
-src/test_thepandacoin
+src/christcoin
+src/christcoind
+src/test_christcoin
 .*.swp
 *.*~*
 *.bak
@@ -9,19 +9,19 @@ src/test_thepandacoin
 *.orig
 *.o
 *.patch
-.thepandacoin
+.christcoin
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-ThePandacoin-qt
-ThePandacoin-Qt.app
-ThePandacoin-Qt.dmg
+christcoin-qt
+christcoin-Qt.app
+christcoin-Qt.dmg
 qt_helper.sh
 
 # Unit-tests
 Makefile.test
-thepandacoin-qt_test
+christcoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
